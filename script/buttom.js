@@ -17,5 +17,5 @@
                 if (uno.innerHTML == 'Ver Menos...') 
                     uno.innerHTML = 'Ver Mas...';
                 else uno.innerHTML = 'Ver Menos...'; 
-            }
+        }
         
