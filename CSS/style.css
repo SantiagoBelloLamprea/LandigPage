@@ -146,3 +146,10 @@
         text-align: center;
     }
 }
+
+#division {
+    position: fixed;
+    background-color:#606060;
+    height: 8px;
+    width: 100%;
+}
