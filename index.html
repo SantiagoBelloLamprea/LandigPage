@@ -30,13 +30,13 @@
                             <a class="nav-link active" aria-current="page" href="#prueba">¿Como lo hacemos?</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Planes y Precios</a>
+                            <a class="nav-link" href="#planes">Planes y Precios</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link ">Proyectos Realizados</a>
+                            <a class="nav-link" href="#proyectos">Proyectos Realizados</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link">Contactenos</a>
+                            <a class="nav-link" href="#footer">Contactenos</a>
                         </li>
                     </ul>
                 </div>
@@ -96,7 +96,7 @@
 
         <section id="prueba" class="design-process-section " id="process-tab" style="margin-bottom: 15px;">
             <hr style="size: 10px; height: 50px; background-image: linear-gradient(white,black);" />
-            <h1 class="text-center .fs-1 text text-primary">¿Como lo hacemos?</h1>
+            <h1 class="text-center .fs-1 text text-primary text-uppercase">¿Como lo hacemos?</h1>
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12">
@@ -169,7 +169,8 @@
 
         <hr style="size: 10px; height: 50px; background-image: linear-gradient(white,black);" />
 
-        <section>
+        <section id="planes">
+            <h1 class="text-center .fs-1 text text-primary text-uppercase">Planes y Precios</h1>
             <div class="d-flex justify-content-center rounded col-md-12" id="card-1">
                 <div class="card mb-3">
                     <div class="card-header text-light bg-secondary text-uppercase"><img
@@ -282,15 +283,61 @@
 
         <hr style="size: 10px; height: 50px; background-image: linear-gradient(white,black);" />
 
+        <section id="proyectos">
+        <h1 class="text-center .fs-1 text text-primary text-uppercase">Proyectos</h1>
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="card text-center d-block mx-auto " style="width: 20rem;">
+                        <img src="./assets/img1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Proyecto1</h5>
+                            <p class="card-text">Descripcion del proyecto realizado para la empresa xxxxxxxx </p>
+                            <a href="#" class="btn btn-primary">Visitar Sitio Web</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card text-center d-block mx-auto " style="width: 20rem;">
+                        <img src="./assets/landigpage2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Proyecto2</h5>
+                            <p class="card-text">Descripcion del proyecto realizado para la empresa xxxxxxxx </p>
+                            <a href="#" class="btn btn-primary">Visitar Sitio Web</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card text-center d-block mx-auto " style="width: 20rem;">
+                        <img src="./assets/landigpage1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Proyecto3</h5>
+                            <p class="card-text">Descripcion del proyecto realizado para la empresa xxxxxxxx </p>
+                            <a href="#" class="btn btn-primary">Visitar Sitio Web</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
 
-
-
+        <hr style="size: 10px; height: 50px; background-image: linear-gradient(white,black);" />
     </main>
 
 
 
     <footer id="footer">
-
+        <h1 class="text-center .fs-1 text text-primary text-uppercase">Cotizar</h1>
         <form class="col-md-12">
             <div class="mb-3">
                 <label for="InputFullName" class="form-label">Nombre Completo</label>
