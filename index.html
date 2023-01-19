@@ -15,33 +15,37 @@
 
 <body>
     <header>
-        <nav class="navbar" aria-label="Seventh navbar example" style="background-color:white; padding-left: 1rem;">
-            <div class="container pos-f-t fixed-top" style="background-color:white; border-radius: 8px;">
-                <button class="navbar-toggler collapsed " type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarsExampleXxl" aria-controls="navbarsExampleXxl" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon "></span>
-                </button>
-                <a class="navbar-brand" href="#"><img style="height: 2.5rem;" src="./assets/icon.png" alt=""></a>
-                <a class="navbar-brand" href="#footer"><button type="button" class="btn btn-primary">Cotizar</button></a>
-                <div class="navbar-collapse collapse" id="navbarsExampleXxl">
-                    <ul class="navbar-nav me-auto mb-2 mb-xl-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#prueba">¿Como lo hacemos?</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#planes">Planes y Precios</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#proyectos">Proyectos Realizados</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#footer">Contactenos</a>
-                        </li>
-                    </ul>
+        <!--Navbar-->
+        <nav class="navbar">
+            <div class="d-flex justify-content-between w-100">
+
+                <div class="container">
+                    <div class="row text-center">
+                        <div class="col-4">
+                            <div class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="navbar-collapse"></i>
+                                </a>
+                                <ul class="dropdown-menu ml-5" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#comoLoHacemos">¿Como lo hacemos?</a></li>
+                                    <li><a class="dropdown-item" href="#planes">Planes y Precios</a></li>
+                                    <li><a class="dropdown-item" href="#proyectos">Proyectos</a></li>
+                                    <li><a class="dropdown-item" href="#footer">Cotizar</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <img class="nav-item" src="./assets/icon.png" alt="" height="50">
+                        </div>
+                        <div class="col-4">
+                            <a href="#footer"><button class="btn btn-primary nav-item">Comprar</button></a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </nav>
+        <!--/.Navbar-->
     </header>
 
 
